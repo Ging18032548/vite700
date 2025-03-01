@@ -1,5 +1,5 @@
 import Header from '../Header';
-import Nevbar from '../Nevbar';
+import Navbar from '../Navbar';
 import Contact from '../Contact';
 
 const LeftSection = () => {
@@ -7,7 +7,7 @@ const LeftSection = () => {
     <div>
         <div className='sticky top-0 grid grid-rows-[35%_45%_20%] h-[87vh]'>
           <Header />
-          <Nevbar />
+          <Navbar />
           <Contact />
         </div>
       </div>
